@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'daemons'
+base = File.expand_path File.dirname(__FILE__)
+runner_path = File.expand_path(File.join(base, '../lib/runner.rb'))
+Daemons.run(runner_path)
