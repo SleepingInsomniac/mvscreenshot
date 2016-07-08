@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Automatically move osx screenshots away from the desktop"
   # spec.description   = "Automatically move osx screenshots away from the desktop"
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/SleepingInsomniac/mvscreenshot"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or

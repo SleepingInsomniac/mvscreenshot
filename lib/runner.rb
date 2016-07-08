@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
 require "mvscreenshot"
-Mvscreenshot::Watcher.watch
+Mvscreenshot::Watcher.new.watch
